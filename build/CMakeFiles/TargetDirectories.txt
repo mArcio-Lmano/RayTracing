@@ -1,3 +1,3 @@
-/home/talocha/C++/RayTracing/build/CMakeFiles/ray_traicing.dir
+/home/talocha/C++/RayTracing/build/CMakeFiles/ray_tracing.dir
 /home/talocha/C++/RayTracing/build/CMakeFiles/edit_cache.dir
 /home/talocha/C++/RayTracing/build/CMakeFiles/rebuild_cache.dir

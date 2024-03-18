@@ -1,1 +1,0 @@
-/usr/bin/clang++ -g CMakeFiles/ray_traicing.dir/src/main.cpp.o -o ray_traicing 

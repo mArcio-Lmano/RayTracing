@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named ray_traicing
+# Target rules for targets named ray_tracing
 
 # Build rule for target.
-ray_traicing: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ray_traicing
-.PHONY : ray_traicing
+ray_tracing: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ray_tracing
+.PHONY : ray_tracing
 
 # fast build rule for target.
-ray_traicing/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ray_traicing.dir/build.make CMakeFiles/ray_traicing.dir/build
-.PHONY : ray_traicing/fast
+ray_tracing/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ray_tracing.dir/build.make CMakeFiles/ray_tracing.dir/build
+.PHONY : ray_tracing/fast
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ray_traicing.dir/build.make CMakeFiles/ray_traicing.dir/src/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ray_tracing.dir/build.make CMakeFiles/ray_tracing.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -142,7 +142,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ray_traicing.dir/build.make CMakeFiles/ray_traicing.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ray_tracing.dir/build.make CMakeFiles/ray_tracing.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -150,7 +150,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ray_traicing.dir/build.make CMakeFiles/ray_traicing.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ray_tracing.dir/build.make CMakeFiles/ray_tracing.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -161,7 +161,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... ray_traicing"
+	@echo "... ray_tracing"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
