@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/talocha/C++/RayTracing/build",
+  "command": "/usr/bin/clang++   -g -o CMakeFiles/ray_traicing.dir/src/main.cpp.o -c /home/talocha/C++/RayTracing/src/main.cpp",
+  "file": "/home/talocha/C++/RayTracing/src/main.cpp",
+  "output": "CMakeFiles/ray_traicing.dir/src/main.cpp.o"
+}
+]
