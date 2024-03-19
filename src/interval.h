@@ -3,7 +3,7 @@
 #define INTERVAL_H
 
 class interval {
-  public:
+public:
     double min, max;
 
     interval() : min(+infinity), max(-infinity) {} // Default interval is empty

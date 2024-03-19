@@ -73,15 +73,15 @@ CMakeFiles/ray_tracing.dir/src/main.cpp.o: CMakeFiles/ray_tracing.dir/flags.make
 CMakeFiles/ray_tracing.dir/src/main.cpp.o: /home/talocha/C++/RayTracing/src/main.cpp
 CMakeFiles/ray_tracing.dir/src/main.cpp.o: CMakeFiles/ray_tracing.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/talocha/C++/RayTracing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ray_tracing.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ray_tracing.dir/src/main.cpp.o -MF CMakeFiles/ray_tracing.dir/src/main.cpp.o.d -o CMakeFiles/ray_tracing.dir/src/main.cpp.o -c /home/talocha/C++/RayTracing/src/main.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ray_tracing.dir/src/main.cpp.o -MF CMakeFiles/ray_tracing.dir/src/main.cpp.o.d -o CMakeFiles/ray_tracing.dir/src/main.cpp.o -c /home/talocha/C++/RayTracing/src/main.cpp
 
 CMakeFiles/ray_tracing.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ray_tracing.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/talocha/C++/RayTracing/src/main.cpp > CMakeFiles/ray_tracing.dir/src/main.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/talocha/C++/RayTracing/src/main.cpp > CMakeFiles/ray_tracing.dir/src/main.cpp.i
 
 CMakeFiles/ray_tracing.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ray_tracing.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/talocha/C++/RayTracing/src/main.cpp -o CMakeFiles/ray_tracing.dir/src/main.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/talocha/C++/RayTracing/src/main.cpp -o CMakeFiles/ray_tracing.dir/src/main.cpp.s
 
 # Object files for target ray_tracing
 ray_tracing_OBJECTS = \

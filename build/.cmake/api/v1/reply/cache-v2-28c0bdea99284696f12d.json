@@ -895,7 +895,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "ray_traicing"
+			"value" : "ray_tracing"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1206,7 +1206,7 @@
 			"value" : "TRUE"
 		},
 		{
-			"name" : "ray_traicing_BINARY_DIR",
+			"name" : "ray_tracing_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1218,7 +1218,7 @@
 			"value" : "/home/talocha/C++/RayTracing/build"
 		},
 		{
-			"name" : "ray_traicing_IS_TOP_LEVEL",
+			"name" : "ray_tracing_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1230,7 +1230,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "ray_traicing_SOURCE_DIR",
+			"name" : "ray_tracing_SOURCE_DIR",
 			"properties" : 
 			[
 				{

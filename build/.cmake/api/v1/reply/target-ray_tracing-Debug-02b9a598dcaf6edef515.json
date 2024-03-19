@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "ray_traicing"
+			"path" : "ray_tracing"
 		}
 	],
 	"backtrace" : 1,
@@ -45,7 +45,7 @@
 			]
 		}
 	],
-	"id" : "ray_traicing::@6890427a1f51a3e7e1df",
+	"id" : "ray_tracing::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -61,8 +61,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "ray_traicing",
-	"nameOnDisk" : "ray_traicing",
+	"name" : "ray_tracing",
+	"nameOnDisk" : "ray_tracing",
 	"paths" : 
 	{
 		"build" : ".",
