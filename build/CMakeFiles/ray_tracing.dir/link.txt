@@ -1,1 +1,1 @@
-/usr/bin/clang++ -g CMakeFiles/ray_tracing.dir/src/main.cpp.o -o ray_tracing 
+/usr/bin/clang++ -g CMakeFiles/ray_tracing.dir/src/main.cpp.o -o ray_tracing  -Wl,-rpath,/opt/intel/oneapi/tbb/latest/lib/intel64/gcc4.8 /opt/intel/oneapi/tbb/latest/lib/intel64/gcc4.8/libtbb_debug.so.12 

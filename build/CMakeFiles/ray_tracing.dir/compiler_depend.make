@@ -12,9 +12,55 @@ CMakeFiles/ray_tracing.dir/src/main.cpp.o: /home/talocha/C++/RayTracing/src/main
   /home/talocha/C++/RayTracing/src/ray.h \
   /home/talocha/C++/RayTracing/src/sphere.h \
   /home/talocha/C++/RayTracing/src/vec3.h \
+  /opt/intel/oneapi/tbb/latest/include/oneapi/tbb/detail/_utils.h \
+  /opt/intel/oneapi/tbb/latest/include/oneapi/tbb/blocked_range.h \
+  /opt/intel/oneapi/tbb/latest/include/oneapi/tbb/cache_aligned_allocator.h \
+  /opt/intel/oneapi/tbb/latest/include/oneapi/tbb/detail/_config.h \
+  /opt/intel/oneapi/tbb/latest/include/oneapi/tbb/detail/_string_resource.h \
+  /opt/intel/oneapi/tbb/latest/include/oneapi/tbb/profiling.h \
+  /opt/intel/oneapi/tbb/latest/include/oneapi/tbb/detail/_aligned_space.h \
+  /opt/intel/oneapi/tbb/latest/include/oneapi/tbb/detail/_assert.h \
+  /opt/intel/oneapi/tbb/latest/include/oneapi/tbb/detail/_attach.h \
+  /opt/intel/oneapi/tbb/latest/include/oneapi/tbb/detail/_config.h \
+  /opt/intel/oneapi/tbb/latest/include/oneapi/tbb/detail/_exception.h \
+  /opt/intel/oneapi/tbb/latest/include/oneapi/tbb/detail/_export.h \
+  /opt/intel/oneapi/tbb/latest/include/oneapi/tbb/detail/_intrusive_list_node.h \
+  /opt/intel/oneapi/tbb/latest/include/oneapi/tbb/detail/_machine.h \
+  /opt/intel/oneapi/tbb/latest/include/oneapi/tbb/detail/_namespace_injection.h \
+  /opt/intel/oneapi/tbb/latest/include/oneapi/tbb/detail/_range_common.h \
+  /opt/intel/oneapi/tbb/latest/include/oneapi/tbb/detail/_small_object_pool.h \
+  /opt/intel/oneapi/tbb/latest/include/oneapi/tbb/detail/_task.h \
+  /opt/intel/oneapi/tbb/latest/include/oneapi/tbb/detail/_task_handle.h \
+  /opt/intel/oneapi/tbb/latest/include/oneapi/tbb/detail/_template_helpers.h \
+  /opt/intel/oneapi/tbb/latest/include/oneapi/tbb/detail/_utils.h \
+  /opt/intel/oneapi/tbb/latest/include/oneapi/tbb/info.h \
+  /opt/intel/oneapi/tbb/latest/include/oneapi/tbb/parallel_for.h \
+  /opt/intel/oneapi/tbb/latest/include/oneapi/tbb/parallel_invoke.h \
+  /opt/intel/oneapi/tbb/latest/include/oneapi/tbb/parallel_reduce.h \
+  /opt/intel/oneapi/tbb/latest/include/oneapi/tbb/parallel_scan.h \
+  /opt/intel/oneapi/tbb/latest/include/oneapi/tbb/partitioner.h \
+  /opt/intel/oneapi/tbb/latest/include/oneapi/tbb/profiling.h \
+  /opt/intel/oneapi/tbb/latest/include/oneapi/tbb/task.h \
+  /opt/intel/oneapi/tbb/latest/include/oneapi/tbb/task_arena.h \
+  /opt/intel/oneapi/tbb/latest/include/oneapi/tbb/task_group.h \
+  /opt/intel/oneapi/tbb/latest/include/oneapi/tbb/tbb_allocator.h \
+  /opt/intel/oneapi/tbb/latest/include/oneapi/tbb/version.h \
+  /opt/intel/oneapi/tbb/latest/include/tbb/blocked_range.h \
+  /opt/intel/oneapi/tbb/latest/include/tbb/parallel_for.h \
+  /opt/intel/oneapi/tbb/latest/include/tbb/parallel_invoke.h \
+  /opt/intel/oneapi/tbb/latest/include/tbb/parallel_reduce.h \
+  /opt/intel/oneapi/tbb/latest/include/tbb/parallel_scan.h \
+  /opt/intel/oneapi/tbb/latest/include/tbb/task.h \
+  /opt/intel/oneapi/tbb/latest/include/tbb/task_arena.h \
+  /opt/intel/oneapi/tbb/latest/include/tbb/tbb.h \
+  /opt/intel/oneapi/tbb/latest/include/tbb/tbb_allocator.h \
+  /usr/include/c++/13.2.1/algorithm \
+  /usr/include/c++/13.2.1/array \
+  /usr/include/c++/13.2.1/atomic \
   /usr/include/c++/13.2.1/backward/auto_ptr.h \
   /usr/include/c++/13.2.1/backward/binders.h \
   /usr/include/c++/13.2.1/bit \
+  /usr/include/c++/13.2.1/bits/algorithmfwd.h \
   /usr/include/c++/13.2.1/bits/align.h \
   /usr/include/c++/13.2.1/bits/alloc_traits.h \
   /usr/include/c++/13.2.1/bits/allocated_ptr.h \
@@ -27,34 +73,46 @@ CMakeFiles/ray_tracing.dir/src/main.cpp.o: /home/talocha/C++/RayTracing/src/main
   /usr/include/c++/13.2.1/bits/basic_string.tcc \
   /usr/include/c++/13.2.1/bits/char_traits.h \
   /usr/include/c++/13.2.1/bits/charconv.h \
+  /usr/include/c++/13.2.1/bits/chrono.h \
+  /usr/include/c++/13.2.1/bits/codecvt.h \
   /usr/include/c++/13.2.1/bits/concept_check.h \
   /usr/include/c++/13.2.1/bits/cpp_type_traits.h \
   /usr/include/c++/13.2.1/bits/cxxabi_forced.h \
   /usr/include/c++/13.2.1/bits/cxxabi_init_exception.h \
+  /usr/include/c++/13.2.1/bits/enable_special_members.h \
+  /usr/include/c++/13.2.1/bits/erase_if.h \
   /usr/include/c++/13.2.1/bits/exception.h \
   /usr/include/c++/13.2.1/bits/exception_defines.h \
   /usr/include/c++/13.2.1/bits/exception_ptr.h \
   /usr/include/c++/13.2.1/bits/functexcept.h \
   /usr/include/c++/13.2.1/bits/functional_hash.h \
   /usr/include/c++/13.2.1/bits/hash_bytes.h \
+  /usr/include/c++/13.2.1/bits/hashtable.h \
+  /usr/include/c++/13.2.1/bits/hashtable_policy.h \
   /usr/include/c++/13.2.1/bits/invoke.h \
   /usr/include/c++/13.2.1/bits/ios_base.h \
   /usr/include/c++/13.2.1/bits/istream.tcc \
   /usr/include/c++/13.2.1/bits/locale_classes.h \
   /usr/include/c++/13.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/13.2.1/bits/locale_conv.h \
   /usr/include/c++/13.2.1/bits/locale_facets.h \
   /usr/include/c++/13.2.1/bits/locale_facets.tcc \
+  /usr/include/c++/13.2.1/bits/locale_facets_nonio.h \
+  /usr/include/c++/13.2.1/bits/locale_facets_nonio.tcc \
   /usr/include/c++/13.2.1/bits/localefwd.h \
   /usr/include/c++/13.2.1/bits/memory_resource.h \
   /usr/include/c++/13.2.1/bits/memoryfwd.h \
   /usr/include/c++/13.2.1/bits/move.h \
   /usr/include/c++/13.2.1/bits/nested_exception.h \
   /usr/include/c++/13.2.1/bits/new_allocator.h \
+  /usr/include/c++/13.2.1/bits/node_handle.h \
   /usr/include/c++/13.2.1/bits/ostream.tcc \
   /usr/include/c++/13.2.1/bits/ostream_insert.h \
+  /usr/include/c++/13.2.1/bits/parse_numbers.h \
   /usr/include/c++/13.2.1/bits/postypes.h \
   /usr/include/c++/13.2.1/bits/predefined_ops.h \
   /usr/include/c++/13.2.1/bits/ptr_traits.h \
+  /usr/include/c++/13.2.1/bits/quoted_string.h \
   /usr/include/c++/13.2.1/bits/random.h \
   /usr/include/c++/13.2.1/bits/random.tcc \
   /usr/include/c++/13.2.1/bits/range_access.h \
@@ -64,43 +122,59 @@ CMakeFiles/ray_tracing.dir/src/main.cpp.o: /home/talocha/C++/RayTracing/src/main
   /usr/include/c++/13.2.1/bits/shared_ptr_atomic.h \
   /usr/include/c++/13.2.1/bits/shared_ptr_base.h \
   /usr/include/c++/13.2.1/bits/specfun.h \
+  /usr/include/c++/13.2.1/bits/sstream.tcc \
   /usr/include/c++/13.2.1/bits/std_abs.h \
+  /usr/include/c++/13.2.1/bits/std_function.h \
+  /usr/include/c++/13.2.1/bits/std_mutex.h \
+  /usr/include/c++/13.2.1/bits/std_thread.h \
+  /usr/include/c++/13.2.1/bits/stl_algo.h \
   /usr/include/c++/13.2.1/bits/stl_algobase.h \
   /usr/include/c++/13.2.1/bits/stl_bvector.h \
   /usr/include/c++/13.2.1/bits/stl_construct.h \
   /usr/include/c++/13.2.1/bits/stl_function.h \
+  /usr/include/c++/13.2.1/bits/stl_heap.h \
   /usr/include/c++/13.2.1/bits/stl_iterator.h \
   /usr/include/c++/13.2.1/bits/stl_iterator_base_funcs.h \
   /usr/include/c++/13.2.1/bits/stl_iterator_base_types.h \
   /usr/include/c++/13.2.1/bits/stl_numeric.h \
   /usr/include/c++/13.2.1/bits/stl_pair.h \
   /usr/include/c++/13.2.1/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/13.2.1/bits/stl_relops.h \
   /usr/include/c++/13.2.1/bits/stl_tempbuf.h \
   /usr/include/c++/13.2.1/bits/stl_uninitialized.h \
   /usr/include/c++/13.2.1/bits/stl_vector.h \
+  /usr/include/c++/13.2.1/bits/stream_iterator.h \
   /usr/include/c++/13.2.1/bits/streambuf.tcc \
   /usr/include/c++/13.2.1/bits/streambuf_iterator.h \
   /usr/include/c++/13.2.1/bits/string_view.tcc \
   /usr/include/c++/13.2.1/bits/stringfwd.h \
+  /usr/include/c++/13.2.1/bits/this_thread_sleep.h \
   /usr/include/c++/13.2.1/bits/uniform_int_dist.h \
+  /usr/include/c++/13.2.1/bits/unique_lock.h \
   /usr/include/c++/13.2.1/bits/unique_ptr.h \
+  /usr/include/c++/13.2.1/bits/unordered_map.h \
   /usr/include/c++/13.2.1/bits/uses_allocator.h \
   /usr/include/c++/13.2.1/bits/uses_allocator_args.h \
   /usr/include/c++/13.2.1/bits/utility.h \
   /usr/include/c++/13.2.1/bits/vector.tcc \
   /usr/include/c++/13.2.1/cctype \
   /usr/include/c++/13.2.1/cerrno \
+  /usr/include/c++/13.2.1/chrono \
+  /usr/include/c++/13.2.1/climits \
   /usr/include/c++/13.2.1/clocale \
   /usr/include/c++/13.2.1/cmath \
+  /usr/include/c++/13.2.1/compare \
   /usr/include/c++/13.2.1/cstddef \
   /usr/include/c++/13.2.1/cstdint \
   /usr/include/c++/13.2.1/cstdio \
   /usr/include/c++/13.2.1/cstdlib \
+  /usr/include/c++/13.2.1/ctime \
   /usr/include/c++/13.2.1/cwchar \
   /usr/include/c++/13.2.1/cwctype \
   /usr/include/c++/13.2.1/debug/assertions.h \
   /usr/include/c++/13.2.1/debug/debug.h \
   /usr/include/c++/13.2.1/exception \
+  /usr/include/c++/13.2.1/execution \
   /usr/include/c++/13.2.1/ext/aligned_buffer.h \
   /usr/include/c++/13.2.1/ext/alloc_traits.h \
   /usr/include/c++/13.2.1/ext/atomicity.h \
@@ -108,26 +182,54 @@ CMakeFiles/ray_tracing.dir/src/main.cpp.o: /home/talocha/C++/RayTracing/src/main
   /usr/include/c++/13.2.1/ext/numeric_traits.h \
   /usr/include/c++/13.2.1/ext/string_conversions.h \
   /usr/include/c++/13.2.1/ext/type_traits.h \
+  /usr/include/c++/13.2.1/functional \
   /usr/include/c++/13.2.1/initializer_list \
+  /usr/include/c++/13.2.1/iomanip \
   /usr/include/c++/13.2.1/ios \
   /usr/include/c++/13.2.1/iosfwd \
   /usr/include/c++/13.2.1/iostream \
   /usr/include/c++/13.2.1/istream \
+  /usr/include/c++/13.2.1/iterator \
   /usr/include/c++/13.2.1/limits \
+  /usr/include/c++/13.2.1/locale \
   /usr/include/c++/13.2.1/memory \
+  /usr/include/c++/13.2.1/memory_resource \
+  /usr/include/c++/13.2.1/mutex \
   /usr/include/c++/13.2.1/new \
   /usr/include/c++/13.2.1/numeric \
   /usr/include/c++/13.2.1/ostream \
+  /usr/include/c++/13.2.1/pstl/algorithm_fwd.h \
+  /usr/include/c++/13.2.1/pstl/algorithm_impl.h \
   /usr/include/c++/13.2.1/pstl/execution_defs.h \
+  /usr/include/c++/13.2.1/pstl/execution_impl.h \
+  /usr/include/c++/13.2.1/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/13.2.1/pstl/glue_algorithm_impl.h \
+  /usr/include/c++/13.2.1/pstl/glue_execution_defs.h \
   /usr/include/c++/13.2.1/pstl/glue_memory_defs.h \
+  /usr/include/c++/13.2.1/pstl/glue_memory_impl.h \
   /usr/include/c++/13.2.1/pstl/glue_numeric_defs.h \
+  /usr/include/c++/13.2.1/pstl/glue_numeric_impl.h \
+  /usr/include/c++/13.2.1/pstl/memory_impl.h \
+  /usr/include/c++/13.2.1/pstl/numeric_fwd.h \
+  /usr/include/c++/13.2.1/pstl/numeric_impl.h \
+  /usr/include/c++/13.2.1/pstl/parallel_backend.h \
+  /usr/include/c++/13.2.1/pstl/parallel_backend_tbb.h \
+  /usr/include/c++/13.2.1/pstl/parallel_backend_utils.h \
+  /usr/include/c++/13.2.1/pstl/parallel_impl.h \
   /usr/include/c++/13.2.1/pstl/pstl_config.h \
+  /usr/include/c++/13.2.1/pstl/unseq_backend_simd.h \
+  /usr/include/c++/13.2.1/pstl/utils.h \
   /usr/include/c++/13.2.1/random \
+  /usr/include/c++/13.2.1/ratio \
+  /usr/include/c++/13.2.1/shared_mutex \
+  /usr/include/c++/13.2.1/sstream \
   /usr/include/c++/13.2.1/stdexcept \
+  /usr/include/c++/13.2.1/stdlib.h \
   /usr/include/c++/13.2.1/streambuf \
   /usr/include/c++/13.2.1/string \
   /usr/include/c++/13.2.1/string_view \
   /usr/include/c++/13.2.1/system_error \
+  /usr/include/c++/13.2.1/thread \
   /usr/include/c++/13.2.1/tr1/bessel_function.tcc \
   /usr/include/c++/13.2.1/tr1/beta_function.tcc \
   /usr/include/c++/13.2.1/tr1/ell_integral.tcc \
@@ -143,7 +245,10 @@ CMakeFiles/ray_tracing.dir/src/main.cpp.o: /home/talocha/C++/RayTracing/src/main
   /usr/include/c++/13.2.1/tuple \
   /usr/include/c++/13.2.1/type_traits \
   /usr/include/c++/13.2.1/typeinfo \
+  /usr/include/c++/13.2.1/unordered_map \
+  /usr/include/c++/13.2.1/utility \
   /usr/include/c++/13.2.1/vector \
+  /usr/include/c++/13.2.1/version \
   /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h \
   /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
   /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -154,8 +259,10 @@ CMakeFiles/ray_tracing.dir/src/main.cpp.o: /home/talocha/C++/RayTracing/src/main
   /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
   /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
   /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/messages_members.h \
   /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/opt_random.h \
   /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/time_members.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
@@ -174,12 +281,15 @@ CMakeFiles/ray_tracing.dir/src/main.cpp.o: /home/talocha/C++/RayTracing/src/main
   /usr/include/bits/iscanonical.h \
   /usr/include/bits/libc-header-start.h \
   /usr/include/bits/libm-simd-decl-stubs.h \
+  /usr/include/bits/local_lim.h \
   /usr/include/bits/locale.h \
   /usr/include/bits/long-double.h \
   /usr/include/bits/math-vector.h \
   /usr/include/bits/mathcalls-helper-functions.h \
   /usr/include/bits/mathcalls-narrow.h \
   /usr/include/bits/mathcalls.h \
+  /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/posix2_lim.h \
   /usr/include/bits/pthread_stack_min-dynamic.h \
   /usr/include/bits/pthreadtypes-arch.h \
   /usr/include/bits/pthreadtypes.h \
@@ -225,11 +335,13 @@ CMakeFiles/ray_tracing.dir/src/main.cpp.o: /home/talocha/C++/RayTracing/src/main
   /usr/include/bits/types/wint_t.h \
   /usr/include/bits/typesizes.h \
   /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/uio_lim.h \
   /usr/include/bits/waitflags.h \
   /usr/include/bits/waitstatus.h \
   /usr/include/bits/wchar.h \
   /usr/include/bits/wctype-wchar.h \
   /usr/include/bits/wordsize.h \
+  /usr/include/bits/xopen_lim.h \
   /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/errno.h \
@@ -237,7 +349,10 @@ CMakeFiles/ray_tracing.dir/src/main.cpp.o: /home/talocha/C++/RayTracing/src/main
   /usr/include/features.h \
   /usr/include/gnu/stubs-64.h \
   /usr/include/gnu/stubs.h \
+  /usr/include/libintl.h \
+  /usr/include/limits.h \
   /usr/include/linux/errno.h \
+  /usr/include/linux/limits.h \
   /usr/include/locale.h \
   /usr/include/math.h \
   /usr/include/pthread.h \
@@ -254,522 +369,1031 @@ CMakeFiles/ray_tracing.dir/src/main.cpp.o: /home/talocha/C++/RayTracing/src/main
   /usr/include/wchar.h \
   /usr/include/wctype.h \
   /usr/lib/clang/17/include/__stddef_max_align_t.h \
+  /usr/lib/clang/17/include/__wmmintrin_aes.h \
+  /usr/lib/clang/17/include/__wmmintrin_pclmul.h \
+  /usr/lib/clang/17/include/adxintrin.h \
+  /usr/lib/clang/17/include/amxcomplexintrin.h \
+  /usr/lib/clang/17/include/amxfp16intrin.h \
+  /usr/lib/clang/17/include/amxintrin.h \
+  /usr/lib/clang/17/include/avx2intrin.h \
+  /usr/lib/clang/17/include/avx512bf16intrin.h \
+  /usr/lib/clang/17/include/avx512bitalgintrin.h \
+  /usr/lib/clang/17/include/avx512bwintrin.h \
+  /usr/lib/clang/17/include/avx512cdintrin.h \
+  /usr/lib/clang/17/include/avx512dqintrin.h \
+  /usr/lib/clang/17/include/avx512erintrin.h \
+  /usr/lib/clang/17/include/avx512fintrin.h \
+  /usr/lib/clang/17/include/avx512fp16intrin.h \
+  /usr/lib/clang/17/include/avx512ifmaintrin.h \
+  /usr/lib/clang/17/include/avx512ifmavlintrin.h \
+  /usr/lib/clang/17/include/avx512pfintrin.h \
+  /usr/lib/clang/17/include/avx512vbmi2intrin.h \
+  /usr/lib/clang/17/include/avx512vbmiintrin.h \
+  /usr/lib/clang/17/include/avx512vbmivlintrin.h \
+  /usr/lib/clang/17/include/avx512vlbf16intrin.h \
+  /usr/lib/clang/17/include/avx512vlbitalgintrin.h \
+  /usr/lib/clang/17/include/avx512vlbwintrin.h \
+  /usr/lib/clang/17/include/avx512vlcdintrin.h \
+  /usr/lib/clang/17/include/avx512vldqintrin.h \
+  /usr/lib/clang/17/include/avx512vlfp16intrin.h \
+  /usr/lib/clang/17/include/avx512vlintrin.h \
+  /usr/lib/clang/17/include/avx512vlvbmi2intrin.h \
+  /usr/lib/clang/17/include/avx512vlvnniintrin.h \
+  /usr/lib/clang/17/include/avx512vlvp2intersectintrin.h \
+  /usr/lib/clang/17/include/avx512vnniintrin.h \
+  /usr/lib/clang/17/include/avx512vp2intersectintrin.h \
+  /usr/lib/clang/17/include/avx512vpopcntdqintrin.h \
+  /usr/lib/clang/17/include/avx512vpopcntdqvlintrin.h \
+  /usr/lib/clang/17/include/avxifmaintrin.h \
+  /usr/lib/clang/17/include/avxintrin.h \
+  /usr/lib/clang/17/include/avxneconvertintrin.h \
+  /usr/lib/clang/17/include/avxvnniint16intrin.h \
+  /usr/lib/clang/17/include/avxvnniint8intrin.h \
+  /usr/lib/clang/17/include/avxvnniintrin.h \
+  /usr/lib/clang/17/include/bmi2intrin.h \
+  /usr/lib/clang/17/include/bmiintrin.h \
+  /usr/lib/clang/17/include/cetintrin.h \
+  /usr/lib/clang/17/include/cldemoteintrin.h \
+  /usr/lib/clang/17/include/clflushoptintrin.h \
+  /usr/lib/clang/17/include/clwbintrin.h \
+  /usr/lib/clang/17/include/cmpccxaddintrin.h \
+  /usr/lib/clang/17/include/crc32intrin.h \
+  /usr/lib/clang/17/include/emmintrin.h \
+  /usr/lib/clang/17/include/enqcmdintrin.h \
+  /usr/lib/clang/17/include/f16cintrin.h \
+  /usr/lib/clang/17/include/fmaintrin.h \
+  /usr/lib/clang/17/include/fxsrintrin.h \
+  /usr/lib/clang/17/include/gfniintrin.h \
+  /usr/lib/clang/17/include/hresetintrin.h \
+  /usr/lib/clang/17/include/immintrin.h \
+  /usr/lib/clang/17/include/invpcidintrin.h \
+  /usr/lib/clang/17/include/keylockerintrin.h \
+  /usr/lib/clang/17/include/limits.h \
+  /usr/lib/clang/17/include/lzcntintrin.h \
+  /usr/lib/clang/17/include/mm_malloc.h \
+  /usr/lib/clang/17/include/mmintrin.h \
+  /usr/lib/clang/17/include/movdirintrin.h \
+  /usr/lib/clang/17/include/pconfigintrin.h \
+  /usr/lib/clang/17/include/pkuintrin.h \
+  /usr/lib/clang/17/include/pmmintrin.h \
+  /usr/lib/clang/17/include/popcntintrin.h \
+  /usr/lib/clang/17/include/prfchiintrin.h \
+  /usr/lib/clang/17/include/ptwriteintrin.h \
+  /usr/lib/clang/17/include/raointintrin.h \
+  /usr/lib/clang/17/include/rdseedintrin.h \
+  /usr/lib/clang/17/include/rtmintrin.h \
   /usr/lib/clang/17/include/sanitizer/tsan_interface.h \
+  /usr/lib/clang/17/include/serializeintrin.h \
+  /usr/lib/clang/17/include/sgxintrin.h \
+  /usr/lib/clang/17/include/sha512intrin.h \
+  /usr/lib/clang/17/include/shaintrin.h \
+  /usr/lib/clang/17/include/sm3intrin.h \
+  /usr/lib/clang/17/include/sm4intrin.h \
+  /usr/lib/clang/17/include/smmintrin.h \
   /usr/lib/clang/17/include/stdarg.h \
   /usr/lib/clang/17/include/stddef.h \
-  /usr/lib/clang/17/include/stdint.h
+  /usr/lib/clang/17/include/stdint.h \
+  /usr/lib/clang/17/include/tmmintrin.h \
+  /usr/lib/clang/17/include/tsxldtrkintrin.h \
+  /usr/lib/clang/17/include/uintrintrin.h \
+  /usr/lib/clang/17/include/vaesintrin.h \
+  /usr/lib/clang/17/include/vpclmulqdqintrin.h \
+  /usr/lib/clang/17/include/waitpkgintrin.h \
+  /usr/lib/clang/17/include/wbnoinvdintrin.h \
+  /usr/lib/clang/17/include/wmmintrin.h \
+  /usr/lib/clang/17/include/x86gprintrin.h \
+  /usr/lib/clang/17/include/xmmintrin.h \
+  /usr/lib/clang/17/include/xsavecintrin.h \
+  /usr/lib/clang/17/include/xsaveintrin.h \
+  /usr/lib/clang/17/include/xsaveoptintrin.h \
+  /usr/lib/clang/17/include/xsavesintrin.h \
+  /usr/lib/clang/17/include/xtestintrin.h
 
 
-/usr/lib/clang/17/include/stddef.h:
+/usr/lib/clang/17/include/xsaveoptintrin.h:
+
+/usr/lib/clang/17/include/xsavecintrin.h:
+
+/usr/lib/clang/17/include/x86gprintrin.h:
+
+/usr/lib/clang/17/include/waitpkgintrin.h:
+
+/usr/lib/clang/17/include/vaesintrin.h:
+
+/usr/lib/clang/17/include/uintrintrin.h:
 
 /usr/lib/clang/17/include/stdarg.h:
 
+/usr/lib/clang/17/include/sm4intrin.h:
+
+/usr/lib/clang/17/include/shaintrin.h:
+
+/usr/lib/clang/17/include/tmmintrin.h:
+
+/usr/lib/clang/17/include/serializeintrin.h:
+
+/usr/lib/clang/17/include/sanitizer/tsan_interface.h:
+
+/usr/lib/clang/17/include/rtmintrin.h:
+
+/usr/lib/clang/17/include/ptwriteintrin.h:
+
+/usr/lib/clang/17/include/pkuintrin.h:
+
+/usr/lib/clang/17/include/movdirintrin.h:
+
+/usr/lib/clang/17/include/mmintrin.h:
+
+/usr/lib/clang/17/include/mm_malloc.h:
+
+/usr/lib/clang/17/include/wbnoinvdintrin.h:
+
+/usr/lib/clang/17/include/keylockerintrin.h:
+
+/usr/lib/clang/17/include/invpcidintrin.h:
+
+/usr/lib/clang/17/include/hresetintrin.h:
+
+/usr/lib/clang/17/include/gfniintrin.h:
+
+/usr/lib/clang/17/include/stddef.h:
+
+/usr/lib/clang/17/include/fmaintrin.h:
+
+/usr/lib/clang/17/include/f16cintrin.h:
+
+/usr/lib/clang/17/include/clwbintrin.h:
+
+/usr/lib/clang/17/include/cetintrin.h:
+
+/usr/lib/clang/17/include/bmi2intrin.h:
+
+/usr/lib/clang/17/include/avxvnniintrin.h:
+
+/usr/lib/clang/17/include/vpclmulqdqintrin.h:
+
+/usr/lib/clang/17/include/avxvnniint16intrin.h:
+
+/usr/lib/clang/17/include/avxneconvertintrin.h:
+
+/usr/lib/clang/17/include/avx512vpopcntdqintrin.h:
+
+/usr/lib/clang/17/include/clflushoptintrin.h:
+
+/usr/lib/clang/17/include/avx512vp2intersectintrin.h:
+
+/usr/lib/clang/17/include/avx512vlvp2intersectintrin.h:
+
+/usr/lib/clang/17/include/avx512vlbwintrin.h:
+
+/usr/lib/clang/17/include/avx512vlbf16intrin.h:
+
+/usr/lib/clang/17/include/avx512vbmivlintrin.h:
+
+/usr/lib/clang/17/include/avx512ifmavlintrin.h:
+
+/usr/lib/clang/17/include/avx512fp16intrin.h:
+
+/usr/lib/clang/17/include/avx512erintrin.h:
+
+/usr/lib/clang/17/include/avx2intrin.h:
+
+/usr/lib/clang/17/include/amxintrin.h:
+
+/usr/lib/clang/17/include/wmmintrin.h:
+
+/usr/lib/clang/17/include/amxfp16intrin.h:
+
+/usr/lib/clang/17/include/adxintrin.h:
+
+/usr/lib/clang/17/include/__wmmintrin_aes.h:
+
+/usr/lib/clang/17/include/emmintrin.h:
+
+/usr/lib/clang/17/include/cldemoteintrin.h:
+
 /usr/lib/clang/17/include/__stddef_max_align_t.h:
-
-/usr/include/wchar.h:
-
-/usr/include/time.h:
-
-/usr/include/sys/single_threaded.h:
 
 /usr/include/sys/cdefs.h:
 
-/usr/include/stdlib.h:
-
-/usr/include/stdio.h:
-
-/usr/include/stdint.h:
+/usr/lib/clang/17/include/bmiintrin.h:
 
 /usr/include/stdc-predef.h:
 
-/usr/include/sched.h:
-
 /usr/include/pthread.h:
-
-/usr/include/math.h:
 
 /usr/include/locale.h:
 
+/usr/include/linux/limits.h:
+
+/usr/include/limits.h:
+
+/usr/lib/clang/17/include/enqcmdintrin.h:
+
+/usr/include/features-time64.h:
+
 /usr/include/errno.h:
+
+/usr/include/stdint.h:
 
 /usr/include/endian.h:
 
-/usr/include/bits/wordsize.h:
-
-/usr/include/sys/types.h:
-
-/usr/include/bits/wctype-wchar.h:
-
-/usr/include/ctype.h:
-
-/usr/include/bits/waitflags.h:
-
-/usr/include/bits/uintn-identity.h:
-
 /usr/include/bits/types/wint_t.h:
+
+/usr/lib/clang/17/include/avx512bwintrin.h:
 
 /usr/include/bits/types/timer_t.h:
 
+/usr/include/bits/types/time_t.h:
+
+/usr/include/bits/types/struct_tm.h:
+
 /usr/include/bits/types/struct_timeval.h:
 
-/usr/include/bits/types/struct_timespec.h:
+/usr/include/bits/wchar.h:
 
-/usr/include/bits/types/struct_sched_param.h:
+/usr/include/bits/waitstatus.h:
+
+/usr/include/bits/types/struct___jmp_buf_tag.h:
 
 /usr/include/bits/types/struct_FILE.h:
 
-/usr/include/bits/types/sigset_t.h:
+/usr/include/bits/types/error_t.h:
 
-/usr/include/bits/types/mbstate_t.h:
+/usr/include/bits/types/cookie_io_functions_t.h:
 
-/usr/include/bits/types/__FILE.h:
+/usr/include/bits/types/clock_t.h:
 
-/usr/include/bits/thread-shared-types.h:
+/usr/lib/clang/17/include/xtestintrin.h:
 
-/usr/include/bits/types/struct_itimerspec.h:
+/usr/include/bits/types/__sigset_t.h:
 
-/usr/include/bits/struct_rwlock.h:
+/usr/include/bits/types/__fpos_t.h:
+
+/usr/include/bits/types/FILE.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/timex.h:
 
 /usr/include/bits/time64.h:
 
-/usr/include/bits/stdlib-float.h:
-
-/usr/include/bits/types/__mbstate_t.h:
+/usr/lib/clang/17/include/raointintrin.h:
 
 /usr/include/bits/time.h:
+
+/usr/include/bits/thread-shared-types.h:
+
+/usr/include/bits/struct_rwlock.h:
+
+/usr/include/bits/struct_mutex.h:
+
+/usr/include/bits/stdlib-float.h:
 
 /usr/include/bits/stdio_lim.h:
 
 /usr/include/bits/stdint-least.h:
 
-/usr/include/bits/stdint-intn.h:
-
-/usr/include/bits/select.h:
-
-/usr/include/bits/sched.h:
-
-/usr/include/bits/pthread_stack_min-dynamic.h:
-
-/usr/include/bits/mathcalls-helper-functions.h:
-
-/usr/include/bits/math-vector.h:
-
-/usr/include/bits/locale.h:
-
-/usr/include/bits/libc-header-start.h:
-
-/usr/include/bits/iscanonical.h:
-
-/usr/include/bits/fp-fast.h:
-
-/usr/include/bits/floatn.h:
-
-/usr/include/wctype.h:
-
-/usr/include/bits/timex.h:
-
-/usr/include/bits/errno.h:
-
-/usr/include/bits/atomic_wide_counter.h:
-
-/usr/include/asm-generic/errno-base.h:
-
-/usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/os_defines.h:
-
-/usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h:
-
-/usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/error_constants.h:
-
-/usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/ctype_inline.h:
-
-/usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/ctype_base.h:
-
-/usr/include/bits/stdint-uintn.h:
-
-/usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h:
-
-/usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/c++locale.h:
-
-/usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/c++config.h:
-
-/usr/lib/clang/17/include/sanitizer/tsan_interface.h:
-
-/usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h:
-
-/usr/include/bits/types/struct___jmp_buf_tag.h:
-
-/usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h:
-
-/usr/include/c++/13.2.1/vector:
-
-/usr/include/features.h:
-
-/usr/include/bits/endianness.h:
-
-/usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/opt_random.h:
-
-/usr/include/c++/13.2.1/tuple:
-
-/usr/include/c++/13.2.1/tr1/special_function_util.h:
-
-/usr/include/c++/13.2.1/tr1/riemann_zeta.tcc:
-
-/usr/include/c++/13.2.1/tr1/poly_hermite.tcc:
-
-/usr/include/c++/13.2.1/tr1/legendre_function.tcc:
-
-/usr/include/c++/13.2.1/tr1/ell_integral.tcc:
-
-/usr/include/c++/13.2.1/tr1/beta_function.tcc:
-
-/usr/include/c++/13.2.1/bits/requires_hosted.h:
-
-/usr/include/gnu/stubs.h:
-
-/usr/include/bits/pthreadtypes-arch.h:
-
-/usr/include/c++/13.2.1/bits/range_access.h:
-
-/usr/include/bits/types/__fpos64_t.h:
-
-/usr/include/c++/13.2.1/limits:
-
-/usr/include/bits/wchar.h:
-
-/usr/include/c++/13.2.1/bits/predefined_ops.h:
-
-/usr/include/c++/13.2.1/cstdlib:
-
-/usr/include/c++/13.2.1/iosfwd:
-
-/usr/include/c++/13.2.1/bits/random.h:
-
-/usr/include/c++/13.2.1/bits/stringfwd.h:
-
-/usr/include/c++/13.2.1/bits/istream.tcc:
-
-/usr/include/c++/13.2.1/tr1/exp_integral.tcc:
-
-/usr/include/c++/13.2.1/bits/stl_bvector.h:
-
-/usr/include/c++/13.2.1/tr1/bessel_function.tcc:
-
-/usr/include/c++/13.2.1/bits/new_allocator.h:
-
-/usr/include/bits/waitstatus.h:
-
-/usr/include/bits/timesize.h:
-
-/usr/include/c++/13.2.1/bits/localefwd.h:
-
-/usr/include/c++/13.2.1/bits/locale_classes.h:
-
-/usr/include/c++/13.2.1/bits/cxxabi_init_exception.h:
-
-/usr/include/c++/13.2.1/bits/invoke.h:
-
-/usr/include/linux/errno.h:
-
-/usr/include/c++/13.2.1/bits/hash_bytes.h:
-
-/usr/include/c++/13.2.1/bits/functexcept.h:
-
-/usr/include/c++/13.2.1/bits/exception_defines.h:
-
-/usr/include/c++/13.2.1/bits/stl_function.h:
-
-/usr/include/c++/13.2.1/bits/locale_facets.tcc:
-
-/home/talocha/C++/RayTracing/src/hittable.h:
-
-/usr/include/c++/13.2.1/backward/binders.h:
-
-/usr/include/bits/byteswap.h:
-
-/usr/include/c++/13.2.1/bits/concept_check.h:
-
-/usr/include/bits/types/__sigset_t.h:
-
-/usr/include/c++/13.2.1/cerrno:
-
-/usr/include/c++/13.2.1/cwctype:
-
-/usr/include/c++/13.2.1/bits/functional_hash.h:
-
-/usr/include/gnu/stubs-64.h:
-
-/usr/include/c++/13.2.1/bits/move.h:
-
-/usr/include/c++/13.2.1/bits/stl_iterator_base_types.h:
-
-/usr/include/sys/select.h:
-
-/home/talocha/C++/RayTracing/src/interval.h:
-
-/usr/include/c++/13.2.1/bits/exception_ptr.h:
-
-/home/talocha/C++/RayTracing/src/color.h:
-
-/usr/include/bits/types/clock_t.h:
-
-/usr/include/bits/types/__fpos_t.h:
-
-/usr/include/bits/mathcalls.h:
-
-/usr/include/c++/13.2.1/type_traits:
-
-/usr/include/c++/13.2.1/bits/unique_ptr.h:
-
-/usr/include/c++/13.2.1/bits/ostream.tcc:
-
-/home/talocha/C++/RayTracing/src/camera.h:
-
-/usr/include/bits/types/error_t.h:
-
-/usr/include/c++/13.2.1/typeinfo:
-
-/usr/include/c++/13.2.1/istream:
-
-/home/talocha/C++/RayTracing/src/sphere.h:
-
-/usr/include/c++/13.2.1/pstl/pstl_config.h:
-
-/home/talocha/C++/RayTracing/src/hittable_list.h:
-
-/usr/include/c++/13.2.1/bit:
-
-/usr/include/bits/cpu-set.h:
-
-/home/talocha/C++/RayTracing/src/material.h:
-
-/usr/include/c++/13.2.1/bits/stl_pair.h:
-
-/usr/include/c++/13.2.1/bits/align.h:
-
-/usr/include/bits/types/locale_t.h:
-
-/usr/include/c++/13.2.1/bits/allocator.h:
-
-/usr/include/bits/mathcalls-narrow.h:
-
-/usr/include/c++/13.2.1/stdexcept:
-
-/usr/include/bits/types/struct_tm.h:
-
-/usr/include/c++/13.2.1/bits/basic_ios.h:
-
-/usr/include/bits/fp-logb.h:
-
-/usr/include/asm-generic/errno.h:
-
-/usr/include/c++/13.2.1/random:
-
-/home/talocha/C++/RayTracing/src/vec3.h:
-
-/usr/include/c++/13.2.1/bits/specfun.h:
-
-/usr/include/c++/13.2.1/ios:
-
-/usr/include/c++/13.2.1/bits/refwrap.h:
-
-/usr/include/c++/13.2.1/string:
-
-/usr/include/c++/13.2.1/bits/ostream_insert.h:
-
-/usr/include/bits/libm-simd-decl-stubs.h:
-
-/usr/include/c++/13.2.1/bits/locale_classes.tcc:
-
-/usr/include/c++/13.2.1/bits/memoryfwd.h:
-
-/usr/include/bits/types/__locale_t.h:
-
-/usr/include/c++/13.2.1/backward/auto_ptr.h:
-
-/usr/include/c++/13.2.1/bits/utility.h:
-
-/usr/include/c++/13.2.1/bits/atomic_base.h:
-
-/usr/include/c++/13.2.1/bits/cpp_type_traits.h:
-
-/usr/include/c++/13.2.1/bits/alloc_traits.h:
-
-/usr/include/c++/13.2.1/bits/basic_string.h:
-
-/home/talocha/C++/RayTracing/src/constUtilFuncs.h:
-
-/usr/lib/clang/17/include/stdint.h:
-
-/usr/include/c++/13.2.1/bits/postypes.h:
-
-/usr/include/c++/13.2.1/bits/streambuf.tcc:
-
-/usr/include/c++/13.2.1/system_error:
-
-/usr/include/c++/13.2.1/bits/char_traits.h:
-
-/usr/include/c++/13.2.1/bits/basic_ios.tcc:
-
-/usr/include/bits/types.h:
-
-/usr/include/c++/13.2.1/bits/allocated_ptr.h:
-
-/usr/include/c++/13.2.1/bits/basic_string.tcc:
-
-/usr/include/c++/13.2.1/bits/nested_exception.h:
-
-/usr/include/c++/13.2.1/bits/uniform_int_dist.h:
-
-/usr/include/bits/struct_mutex.h:
-
-/usr/include/c++/13.2.1/ext/alloc_traits.h:
-
-/usr/include/c++/13.2.1/tr1/hypergeometric.tcc:
-
-/usr/include/c++/13.2.1/bits/charconv.h:
-
-/usr/include/bits/types/FILE.h:
-
-/usr/include/bits/flt-eval-method.h:
-
-/usr/include/c++/13.2.1/bits/locale_facets.h:
-
-/usr/include/bits/long-double.h:
-
-/usr/include/c++/13.2.1/bits/shared_ptr.h:
-
-/usr/include/c++/13.2.1/ext/type_traits.h:
-
-/usr/include/c++/13.2.1/bits/shared_ptr_atomic.h:
-
-/usr/include/c++/13.2.1/bits/shared_ptr_base.h:
-
-/usr/include/bits/typesizes.h:
-
-/usr/include/c++/13.2.1/bits/vector.tcc:
-
-/usr/include/c++/13.2.1/bits/std_abs.h:
-
-/usr/include/c++/13.2.1/cwchar:
-
-/usr/include/c++/13.2.1/bits/stl_algobase.h:
-
-/usr/include/asm/errno.h:
-
-/usr/include/c++/13.2.1/pstl/execution_defs.h:
-
-/usr/include/c++/13.2.1/bits/stl_vector.h:
-
-/usr/include/c++/13.2.1/bits/stl_construct.h:
-
-/usr/include/c++/13.2.1/memory:
-
-/usr/include/bits/types/time_t.h:
-
-/usr/include/c++/13.2.1/bits/stl_numeric.h:
-
-/usr/include/c++/13.2.1/bits/stl_tempbuf.h:
-
-/usr/include/bits/types/clockid_t.h:
-
-/usr/include/c++/13.2.1/string_view:
-
-/usr/include/c++/13.2.1/bits/stl_uninitialized.h:
-
 /usr/include/bits/setjmp.h:
-
-/usr/include/c++/13.2.1/bits/exception.h:
-
-/usr/include/c++/13.2.1/bits/stl_iterator_base_funcs.h:
-
-/usr/include/c++/13.2.1/bits/streambuf_iterator.h:
-
-/usr/include/features-time64.h:
-
-/usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/gthr.h:
-
-/usr/include/c++/13.2.1/bits/stl_iterator.h:
-
-/usr/include/c++/13.2.1/bits/atomic_lockfree_defines.h:
-
-/usr/include/c++/13.2.1/cmath:
 
 /usr/include/bits/pthreadtypes.h:
 
-/usr/include/c++/13.2.1/debug/assertions.h:
+/usr/include/bits/pthreadtypes-arch.h:
 
-/usr/include/c++/13.2.1/bits/stl_raw_storage_iter.h:
+/usr/include/bits/mathcalls-narrow.h:
 
-/usr/include/c++/13.2.1/bits/string_view.tcc:
+/usr/include/bits/mathcalls-helper-functions.h:
 
-/usr/include/c++/13.2.1/bits/uses_allocator.h:
+/usr/include/bits/long-double.h:
 
-/usr/include/bits/types/cookie_io_functions_t.h:
+/usr/include/bits/locale.h:
 
-/usr/include/c++/13.2.1/tr1/poly_laguerre.tcc:
+/usr/include/bits/local_lim.h:
 
-/usr/include/c++/13.2.1/tr1/modified_bessel_func.tcc:
+/usr/include/bits/libm-simd-decl-stubs.h:
 
-/usr/include/c++/13.2.1/debug/debug.h:
+/usr/include/bits/libc-header-start.h:
 
-/usr/include/c++/13.2.1/bits/cxxabi_forced.h:
+/usr/lib/clang/17/include/avx512vldqintrin.h:
 
-/usr/include/c++/13.2.1/bits/uses_allocator_args.h:
+/usr/include/bits/iscanonical.h:
 
-/usr/include/c++/13.2.1/cctype:
+/usr/include/bits/fp-logb.h:
+
+/usr/include/wctype.h:
+
+/usr/include/sched.h:
+
+/usr/include/bits/fp-fast.h:
+
+/usr/include/bits/flt-eval-method.h:
+
+/usr/include/bits/floatn.h:
+
+/usr/include/bits/floatn-common.h:
+
+/usr/include/bits/errno.h:
 
 /usr/include/bits/endian.h:
 
-/usr/include/c++/13.2.1/clocale:
+/usr/include/bits/byteswap.h:
 
-/usr/include/c++/13.2.1/bits/ptr_traits.h:
+/usr/include/bits/atomic_wide_counter.h:
 
-/usr/include/c++/13.2.1/cstddef:
+/usr/include/asm-generic/errno.h:
 
-/usr/include/c++/13.2.1/cstdint:
+/usr/include/asm-generic/errno-base.h:
 
-/usr/include/alloca.h:
+/usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/time_members.h:
 
-/usr/include/c++/13.2.1/tr1/gamma.tcc:
+/usr/include/c++/13.2.1/bits/stl_algo.h:
 
-/usr/include/c++/13.2.1/bits/memory_resource.h:
+/usr/include/c++/13.2.1/bits/std_mutex.h:
 
-/usr/include/c++/13.2.1/cstdio:
+/usr/include/c++/13.2.1/bits/vector.tcc:
 
-/usr/include/c++/13.2.1/ostream:
+/usr/include/c++/13.2.1/bits/shared_ptr_base.h:
 
-/usr/include/c++/13.2.1/exception:
-
-/usr/include/c++/13.2.1/initializer_list:
-
-/usr/include/c++/13.2.1/ext/aligned_buffer.h:
-
-/usr/include/c++/13.2.1/ext/atomicity.h:
-
-/home/talocha/C++/RayTracing/src/main.cpp:
-
-/usr/include/c++/13.2.1/ext/concurrence.h:
-
-/usr/include/c++/13.2.1/ext/numeric_traits.h:
+/usr/lib/clang/17/include/avx512vlintrin.h:
 
 /usr/include/c++/13.2.1/bits/random.tcc:
 
 /usr/include/c++/13.2.1/ext/string_conversions.h:
 
-/usr/include/c++/13.2.1/iostream:
+/usr/include/c++/13.2.1/bits/quoted_string.h:
 
-/usr/include/c++/13.2.1/new:
+/usr/include/bits/types/__fpos64_t.h:
 
-/usr/include/bits/floatn-common.h:
+/usr/include/c++/13.2.1/bits/requires_hosted.h:
+
+/usr/include/c++/13.2.1/bits/node_handle.h:
+
+/usr/include/c++/13.2.1/tr1/bessel_function.tcc:
+
+/usr/include/c++/13.2.1/bits/memoryfwd.h:
+
+/usr/include/c++/13.2.1/bits/locale_classes.tcc:
+
+/usr/include/c++/13.2.1/cstdio:
+
+/usr/include/c++/13.2.1/pstl/unseq_backend_simd.h:
+
+/usr/include/c++/13.2.1/tr1/gamma.tcc:
+
+/usr/include/c++/13.2.1/bits/locale_facets_nonio.tcc:
+
+/usr/include/c++/13.2.1/bits/locale_facets.h:
+
+/usr/include/sys/single_threaded.h:
+
+/opt/intel/oneapi/tbb/latest/include/tbb/parallel_invoke.h:
+
+/usr/include/c++/13.2.1/bits/move.h:
+
+/usr/include/c++/13.2.1/bits/stl_iterator_base_types.h:
+
+/usr/lib/clang/17/include/sha512intrin.h:
+
+/usr/include/c++/13.2.1/bits/istream.tcc:
+
+/usr/include/bits/types/locale_t.h:
+
+/home/talocha/C++/RayTracing/src/vec3.h:
+
+/usr/include/c++/13.2.1/bits/predefined_ops.h:
+
+/usr/lib/clang/17/include/avx512fintrin.h:
+
+/usr/include/c++/13.2.1/bits/stl_tempbuf.h:
+
+/opt/intel/oneapi/tbb/latest/include/oneapi/tbb/detail/_assert.h:
+
+/usr/include/bits/select.h:
+
+/usr/include/c++/13.2.1/compare:
+
+/usr/include/bits/uio_lim.h:
+
+/usr/include/bits/math-vector.h:
+
+/usr/include/c++/13.2.1/bits/functexcept.h:
+
+/usr/include/c++/13.2.1/bits/exception_ptr.h:
+
+/usr/include/c++/13.2.1/bits/exception_defines.h:
+
+/usr/lib/clang/17/include/avx512cdintrin.h:
+
+/usr/include/c++/13.2.1/bits/enable_special_members.h:
+
+/home/talocha/C++/RayTracing/src/material.h:
+
+/usr/lib/clang/17/include/avx512vpopcntdqvlintrin.h:
+
+/usr/lib/clang/17/include/__wmmintrin_pclmul.h:
+
+/usr/include/features.h:
+
+/usr/include/bits/types/__FILE.h:
+
+/usr/include/bits/sched.h:
 
 /usr/include/c++/13.2.1/bits/ios_base.h:
 
-/usr/include/c++/13.2.1/numeric:
+/usr/include/c++/13.2.1/pstl/glue_algorithm_impl.h:
 
-/usr/include/c++/13.2.1/pstl/glue_memory_defs.h:
+/usr/include/c++/13.2.1/bits/cxxabi_init_exception.h:
 
-/usr/include/c++/13.2.1/pstl/glue_numeric_defs.h:
+/usr/include/c++/13.2.1/bits/refwrap.h:
+
+/usr/include/c++/13.2.1/bits/ostream_insert.h:
+
+/usr/include/c++/13.2.1/string:
+
+/usr/include/c++/13.2.1/bits/cpp_type_traits.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/c++/13.2.1/bits/alloc_traits.h:
+
+/usr/include/bits/uintn-identity.h:
+
+/usr/include/c++/13.2.1/bits/charconv.h:
+
+/usr/include/c++/13.2.1/tr1/hypergeometric.tcc:
+
+/usr/include/c++/13.2.1/bits/char_traits.h:
+
+/usr/include/bits/posix2_lim.h:
+
+/usr/include/c++/13.2.1/bits/basic_string.tcc:
+
+/usr/include/c++/13.2.1/pstl/memory_impl.h:
+
+/usr/include/c++/13.2.1/version:
+
+/usr/lib/clang/17/include/sm3intrin.h:
+
+/usr/include/c++/13.2.1/bits/basic_ios.tcc:
+
+/usr/lib/clang/17/include/lzcntintrin.h:
+
+/usr/include/c++/13.2.1/bits/stl_iterator.h:
+
+/usr/include/c++/13.2.1/bits/std_thread.h:
+
+/usr/include/c++/13.2.1/bits/atomic_base.h:
+
+/usr/lib/clang/17/include/avx512pfintrin.h:
+
+/usr/include/c++/13.2.1/bits/allocator.h:
+
+/usr/include/c++/13.2.1/bits/locale_facets_nonio.h:
+
+/usr/include/c++/13.2.1/bits/allocated_ptr.h:
+
+/usr/include/c++/13.2.1/bits/atomic_lockfree_defines.h:
+
+/opt/intel/oneapi/tbb/latest/include/oneapi/tbb/detail/_task_handle.h:
+
+/opt/intel/oneapi/tbb/latest/include/oneapi/tbb/detail/_export.h:
+
+/usr/include/c++/13.2.1/bits/cxxabi_forced.h:
+
+/usr/include/c++/13.2.1/bits/uses_allocator_args.h:
+
+/usr/include/c++/13.2.1/cerrno:
+
+/opt/intel/oneapi/tbb/latest/include/oneapi/tbb/detail/_intrusive_list_node.h:
+
+/usr/include/c++/13.2.1/functional:
+
+/usr/include/c++/13.2.1/tr1/exp_integral.tcc:
+
+/opt/intel/oneapi/tbb/latest/include/oneapi/tbb/detail/_namespace_injection.h:
+
+/usr/lib/clang/17/include/prfchiintrin.h:
+
+/opt/intel/oneapi/tbb/latest/include/oneapi/tbb/detail/_small_object_pool.h:
+
+/opt/intel/oneapi/tbb/latest/include/oneapi/tbb/partitioner.h:
+
+/opt/intel/oneapi/tbb/latest/include/oneapi/tbb/profiling.h:
+
+/usr/include/c++/13.2.1/exception:
+
+/usr/include/c++/13.2.1/bits/memory_resource.h:
+
+/usr/include/c++/13.2.1/bits/stl_algobase.h:
+
+/usr/include/c++/13.2.1/bits/chrono.h:
+
+/opt/intel/oneapi/tbb/latest/include/oneapi/tbb/detail/_task.h:
+
+/usr/include/c++/13.2.1/bits/nested_exception.h:
+
+/usr/lib/clang/17/include/rdseedintrin.h:
+
+/usr/include/c++/13.2.1/bits/uniform_int_dist.h:
+
+/usr/include/c++/13.2.1/bits/functional_hash.h:
+
+/opt/intel/oneapi/tbb/latest/include/oneapi/tbb/detail/_aligned_space.h:
+
+/opt/intel/oneapi/tbb/latest/include/oneapi/tbb/detail/_machine.h:
+
+/usr/lib/clang/17/include/popcntintrin.h:
+
+/usr/include/bits/cpu-set.h:
+
+/opt/intel/oneapi/tbb/latest/include/oneapi/tbb/detail/_config.h:
+
+/usr/include/bits/types/struct_itimerspec.h:
+
+/opt/intel/oneapi/tbb/latest/include/tbb/tbb_allocator.h:
+
+/usr/lib/clang/17/include/xsavesintrin.h:
+
+/usr/include/c++/13.2.1/bits/postypes.h:
+
+/usr/include/c++/13.2.1/bits/erase_if.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/usr/include/c++/13.2.1/bits/streambuf.tcc:
+
+/usr/lib/clang/17/include/avx512vlvnniintrin.h:
+
+/opt/intel/oneapi/tbb/latest/include/oneapi/tbb/detail/_string_resource.h:
+
+/usr/include/c++/13.2.1/bits/stl_function.h:
+
+/home/talocha/C++/RayTracing/src/hittable_list.h:
+
+/usr/include/c++/13.2.1/bits/ptr_traits.h:
+
+/usr/lib/clang/17/include/avx512vbmiintrin.h:
+
+/usr/lib/clang/17/include/avx512bitalgintrin.h:
+
+/usr/include/bits/types/struct_timespec.h:
+
+/usr/include/c++/13.2.1/bits/algorithmfwd.h:
+
+/usr/include/c++/13.2.1/bits/exception.h:
+
+/usr/include/c++/13.2.1/bits/stl_iterator_base_funcs.h:
+
+/usr/include/bits/waitflags.h:
+
+/usr/include/c++/13.2.1/bits/streambuf_iterator.h:
+
+/opt/intel/oneapi/tbb/latest/include/tbb/task_arena.h:
+
+/opt/intel/oneapi/tbb/latest/include/oneapi/tbb/blocked_range.h:
+
+/usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/c++locale.h:
+
+/usr/lib/clang/17/include/cmpccxaddintrin.h:
+
+/usr/include/c++/13.2.1/bits/codecvt.h:
+
+/usr/include/c++/13.2.1/cstdlib:
+
+/usr/include/c++/13.2.1/iosfwd:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h:
+
+/usr/include/c++/13.2.1/bits/align.h:
+
+/usr/include/c++/13.2.1/bits/range_access.h:
 
 /home/talocha/C++/RayTracing/src/ray.h:
 
 /usr/include/c++/13.2.1/streambuf:
+
+/usr/lib/clang/17/include/avx512vnniintrin.h:
+
+/usr/lib/clang/17/include/amxcomplexintrin.h:
+
+/opt/intel/oneapi/tbb/latest/include/tbb/task.h:
+
+/usr/include/c++/13.2.1/backward/auto_ptr.h:
+
+/usr/include/c++/13.2.1/bits/utility.h:
+
+/usr/lib/clang/17/include/crc32intrin.h:
+
+/home/talocha/C++/RayTracing/src/color.h:
+
+/opt/intel/oneapi/tbb/latest/include/oneapi/tbb/detail/_utils.h:
+
+/usr/include/bits/types/mbstate_t.h:
+
+/usr/include/c++/13.2.1/iostream:
+
+/usr/lib/clang/17/include/avx512vlbitalgintrin.h:
+
+/opt/intel/oneapi/tbb/latest/include/oneapi/tbb/detail/_range_common.h:
+
+/usr/lib/clang/17/include/xsaveintrin.h:
+
+/usr/lib/clang/17/include/avxvnniint8intrin.h:
+
+/usr/include/c++/13.2.1/pstl/parallel_impl.h:
+
+/usr/lib/clang/17/include/limits.h:
+
+/home/talocha/C++/RayTracing/src/constUtilFuncs.h:
+
+/usr/include/c++/13.2.1/bits/hashtable_policy.h:
+
+/opt/intel/oneapi/tbb/latest/include/tbb/blocked_range.h:
+
+/usr/include/c++/13.2.1/bits/specfun.h:
+
+/usr/include/c++/13.2.1/array:
+
+/usr/include/c++/13.2.1/bits/basic_ios.h:
+
+/opt/intel/oneapi/tbb/latest/include/oneapi/tbb/task_arena.h:
+
+/opt/intel/oneapi/tbb/latest/include/tbb/parallel_scan.h:
+
+/usr/include/c++/13.2.1/climits:
+
+/opt/intel/oneapi/tbb/latest/include/oneapi/tbb/detail/_attach.h:
+
+/home/talocha/C++/RayTracing/src/sphere.h:
+
+/usr/include/c++/13.2.1/bit:
+
+/usr/include/c++/13.2.1/pstl/parallel_backend_tbb.h:
+
+/home/talocha/C++/RayTracing/src/main.cpp:
+
+/usr/include/c++/13.2.1/ext/concurrence.h:
+
+/usr/include/c++/13.2.1/bits/stl_construct.h:
+
+/usr/include/c++/13.2.1/cstddef:
+
+/usr/include/c++/13.2.1/bits/stl_vector.h:
+
+/usr/include/c++/13.2.1/bits/stream_iterator.h:
+
+/opt/intel/oneapi/tbb/latest/include/oneapi/tbb/detail/_template_helpers.h:
+
+/usr/include/c++/13.2.1/iterator:
+
+/usr/include/time.h:
+
+/usr/include/c++/13.2.1/random:
+
+/usr/include/c++/13.2.1/sstream:
+
+/opt/intel/oneapi/tbb/latest/include/oneapi/tbb/parallel_invoke.h:
+
+/usr/include/stdio.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/c++/13.2.1/bits/stl_bvector.h:
+
+/usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/error_constants.h:
+
+/usr/include/bits/pthread_stack_min-dynamic.h:
+
+/opt/intel/oneapi/tbb/latest/include/oneapi/tbb/parallel_reduce.h:
+
+/usr/include/c++/13.2.1/bits/shared_ptr_atomic.h:
+
+/usr/include/c++/13.2.1/ext/type_traits.h:
+
+/usr/lib/clang/17/include/stdint.h:
+
+/usr/include/bits/wctype-wchar.h:
+
+/opt/intel/oneapi/tbb/latest/include/oneapi/tbb/parallel_scan.h:
+
+/usr/include/c++/13.2.1/bits/basic_string.h:
+
+/usr/include/c++/13.2.1/bits/shared_ptr.h:
+
+/opt/intel/oneapi/tbb/latest/include/oneapi/tbb/task.h:
+
+/usr/lib/clang/17/include/avx512bf16intrin.h:
+
+/usr/include/c++/13.2.1/bits/locale_classes.h:
+
+/usr/include/c++/13.2.1/bits/stl_pair.h:
+
+/usr/lib/clang/17/include/avxifmaintrin.h:
+
+/usr/lib/clang/17/include/avx512vlcdintrin.h:
+
+/usr/include/c++/13.2.1/numeric:
+
+/opt/intel/oneapi/tbb/latest/include/oneapi/tbb/tbb_allocator.h:
+
+/usr/include/libintl.h:
+
+/usr/include/bits/endianness.h:
+
+/opt/intel/oneapi/tbb/latest/include/oneapi/tbb/detail/_exception.h:
+
+/opt/intel/oneapi/tbb/latest/include/oneapi/tbb/version.h:
+
+/usr/lib/clang/17/include/immintrin.h:
+
+/usr/include/c++/13.2.1/system_error:
+
+/opt/intel/oneapi/tbb/latest/include/tbb/parallel_for.h:
+
+/usr/include/c++/13.2.1/cstdint:
+
+/home/talocha/C++/RayTracing/src/interval.h:
+
+/usr/include/c++/13.2.1/bits/this_thread_sleep.h:
+
+/usr/include/c++/13.2.1/limits:
+
+/usr/include/c++/13.2.1/mutex:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/c++/13.2.1/bits/locale_facets.tcc:
+
+/usr/include/c++/13.2.1/bits/locale_conv.h:
+
+/home/talocha/C++/RayTracing/src/hittable.h:
+
+/usr/include/c++/13.2.1/algorithm:
+
+/usr/lib/clang/17/include/avx512dqintrin.h:
+
+/usr/include/c++/13.2.1/bits/concept_check.h:
+
+/usr/lib/clang/17/include/xmmintrin.h:
+
+/usr/include/c++/13.2.1/backward/binders.h:
+
+/usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/gthr.h:
+
+/usr/include/c++/13.2.1/bits/invoke.h:
+
+/usr/lib/clang/17/include/avxintrin.h:
+
+/usr/include/math.h:
+
+/usr/include/c++/13.2.1/atomic:
+
+/usr/include/bits/stdint-uintn.h:
+
+/usr/include/asm/errno.h:
+
+/usr/include/c++/13.2.1/bits/parse_numbers.h:
+
+/usr/lib/clang/17/include/pconfigintrin.h:
+
+/opt/intel/oneapi/tbb/latest/include/oneapi/tbb/parallel_for.h:
+
+/opt/intel/oneapi/tbb/latest/include/tbb/parallel_reduce.h:
+
+/usr/include/c++/13.2.1/pstl/execution_impl.h:
+
+/usr/include/c++/13.2.1/pstl/utils.h:
+
+/opt/intel/oneapi/tbb/latest/include/oneapi/tbb/task_group.h:
+
+/usr/include/c++/13.2.1/bits/stl_heap.h:
+
+/usr/include/c++/13.2.1/bits/stl_numeric.h:
+
+/usr/include/c++/13.2.1/bits/stl_raw_storage_iter.h:
+
+/usr/include/c++/13.2.1/bits/string_view.tcc:
+
+/usr/include/c++/13.2.1/debug/assertions.h:
+
+/usr/include/c++/13.2.1/bits/stl_relops.h:
+
+/usr/lib/clang/17/include/pmmintrin.h:
+
+/usr/include/c++/13.2.1/pstl/execution_defs.h:
+
+/usr/include/c++/13.2.1/bits/stl_uninitialized.h:
+
+/usr/include/c++/13.2.1/bits/sstream.tcc:
+
+/usr/include/c++/13.2.1/string_view:
+
+/usr/include/c++/13.2.1/bits/stringfwd.h:
+
+/usr/lib/clang/17/include/avx512ifmaintrin.h:
+
+/usr/include/bits/xopen_lim.h:
+
+/usr/include/c++/13.2.1/pstl/parallel_backend_utils.h:
+
+/opt/intel/oneapi/tbb/latest/include/tbb/tbb.h:
+
+/usr/include/c++/13.2.1/bits/unique_lock.h:
+
+/usr/include/c++/13.2.1/stdlib.h:
+
+/usr/include/c++/13.2.1/bits/unique_ptr.h:
+
+/usr/include/c++/13.2.1/bits/localefwd.h:
+
+/usr/include/c++/13.2.1/type_traits:
+
+/usr/lib/clang/17/include/tsxldtrkintrin.h:
+
+/usr/include/c++/13.2.1/bits/unordered_map.h:
+
+/usr/include/c++/13.2.1/bits/uses_allocator.h:
+
+/opt/intel/oneapi/tbb/latest/include/oneapi/tbb/cache_aligned_allocator.h:
+
+/usr/include/c++/13.2.1/cctype:
+
+/usr/include/bits/types/__mbstate_t.h:
+
+/usr/include/c++/13.2.1/chrono:
+
+/usr/include/c++/13.2.1/bits/random.h:
+
+/usr/include/c++/13.2.1/istream:
+
+/usr/include/c++/13.2.1/typeinfo:
+
+/usr/include/c++/13.2.1/clocale:
+
+/usr/include/c++/13.2.1/ctime:
+
+/usr/include/c++/13.2.1/bits/new_allocator.h:
+
+/usr/include/c++/13.2.1/pstl/algorithm_impl.h:
+
+/usr/lib/clang/17/include/avx512vbmi2intrin.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/c++/13.2.1/cwchar:
+
+/usr/lib/clang/17/include/avx512vlvbmi2intrin.h:
+
+/usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/os_defines.h:
+
+/usr/include/c++/13.2.1/cwctype:
+
+/usr/include/c++/13.2.1/pstl/glue_algorithm_defs.h:
+
+/usr/include/c++/13.2.1/debug/debug.h:
+
+/usr/include/c++/13.2.1/pstl/algorithm_fwd.h:
+
+/usr/include/c++/13.2.1/tr1/modified_bessel_func.tcc:
+
+/usr/include/c++/13.2.1/tr1/poly_laguerre.tcc:
+
+/usr/include/c++/13.2.1/execution:
+
+/usr/include/c++/13.2.1/ext/alloc_traits.h:
+
+/usr/include/c++/13.2.1/ext/atomicity.h:
+
+/usr/include/bits/types/clockid_t.h:
+
+/usr/include/bits/stdint-intn.h:
+
+/usr/include/c++/13.2.1/bits/hashtable.h:
+
+/usr/include/c++/13.2.1/ext/numeric_traits.h:
+
+/usr/include/c++/13.2.1/initializer_list:
+
+/usr/lib/clang/17/include/fxsrintrin.h:
+
+/usr/include/c++/13.2.1/iomanip:
+
+/usr/include/c++/13.2.1/bits/ostream.tcc:
+
+/usr/include/c++/13.2.1/ios:
+
+/usr/include/c++/13.2.1/locale:
+
+/usr/include/c++/13.2.1/memory:
+
+/usr/include/c++/13.2.1/new:
+
+/usr/include/bits/types/__locale_t.h:
+
+/usr/include/c++/13.2.1/ostream:
+
+/usr/include/stdlib.h:
+
+/usr/include/c++/13.2.1/pstl/glue_execution_defs.h:
+
+/usr/include/c++/13.2.1/pstl/glue_memory_defs.h:
+
+/usr/include/wchar.h:
+
+/usr/include/bits/posix1_lim.h:
+
+/usr/include/c++/13.2.1/bits/std_function.h:
+
+/usr/include/c++/13.2.1/memory_resource:
+
+/usr/include/c++/13.2.1/pstl/glue_memory_impl.h:
+
+/usr/include/c++/13.2.1/utility:
+
+/usr/include/ctype.h:
+
+/usr/include/c++/13.2.1/pstl/glue_numeric_defs.h:
+
+/usr/include/c++/13.2.1/pstl/numeric_fwd.h:
+
+/usr/include/c++/13.2.1/pstl/glue_numeric_impl.h:
+
+/usr/lib/clang/17/include/avx512vlfp16intrin.h:
+
+/usr/include/c++/13.2.1/pstl/pstl_config.h:
+
+/usr/include/bits/types/struct_sched_param.h:
+
+/usr/include/c++/13.2.1/bits/hash_bytes.h:
+
+/usr/include/c++/13.2.1/ratio:
+
+/usr/include/alloca.h:
+
+/usr/include/c++/13.2.1/shared_mutex:
+
+/opt/intel/oneapi/tbb/latest/include/oneapi/tbb/info.h:
+
+/usr/include/c++/13.2.1/stdexcept:
+
+/usr/include/c++/13.2.1/cmath:
+
+/usr/include/c++/13.2.1/thread:
+
+/usr/include/c++/13.2.1/ext/aligned_buffer.h:
+
+/usr/include/c++/13.2.1/tr1/beta_function.tcc:
+
+/usr/include/bits/timesize.h:
+
+/usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/messages_members.h:
+
+/usr/include/c++/13.2.1/bits/std_abs.h:
+
+/usr/include/c++/13.2.1/tr1/ell_integral.tcc:
+
+/usr/include/c++/13.2.1/tr1/legendre_function.tcc:
+
+/usr/include/c++/13.2.1/tr1/poly_hermite.tcc:
+
+/usr/include/c++/13.2.1/tr1/riemann_zeta.tcc:
+
+/usr/include/c++/13.2.1/pstl/parallel_backend.h:
+
+/usr/include/c++/13.2.1/tr1/special_function_util.h:
+
+/usr/include/c++/13.2.1/tuple:
+
+/usr/include/bits/mathcalls.h:
+
+/usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/opt_random.h:
+
+/usr/include/c++/13.2.1/unordered_map:
+
+/usr/include/linux/errno.h:
+
+/home/talocha/C++/RayTracing/src/camera.h:
+
+/usr/include/c++/13.2.1/pstl/numeric_impl.h:
+
+/usr/include/c++/13.2.1/vector:
+
+/usr/lib/clang/17/include/smmintrin.h:
+
+/usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h:
+
+/usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h:
+
+/usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/c++config.h:
+
+/usr/include/bits/types/sigset_t.h:
+
+/usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h:
+
+/usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/ctype_base.h:
+
+/usr/lib/clang/17/include/sgxintrin.h:
+
+/usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/ctype_inline.h:

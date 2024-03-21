@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/clang++
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -isystem /opt/intel/oneapi/tbb/latest/include
 
 CXX_FLAGS = -g
 

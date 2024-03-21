@@ -92,6 +92,7 @@ ray_tracing_EXTERNAL_OBJECTS =
 
 ray_tracing: CMakeFiles/ray_tracing.dir/src/main.cpp.o
 ray_tracing: CMakeFiles/ray_tracing.dir/build.make
+ray_tracing: /opt/intel/oneapi/tbb/latest/lib/intel64/gcc4.8/libtbb_debug.so.12
 ray_tracing: CMakeFiles/ray_tracing.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/talocha/C++/RayTracing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ray_tracing"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ray_tracing.dir/link.txt --verbose=$(VERBOSE)
