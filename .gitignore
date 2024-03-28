@@ -2,5 +2,5 @@
 build/.cmake/
 build/cmake*
 build/CMake*
-build/MakeFile
+build/Makefile
 
