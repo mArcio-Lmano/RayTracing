@@ -9,8 +9,10 @@
 
 #include <algorithm>
 #include <execution>
+#include <thread>
 #include <iostream>
 #include <iomanip>
+
 
 
 
@@ -49,7 +51,7 @@ public:
         std::for_each(std::execution::par, image_vertical_iterator.begin(), image_vertical_iterator.end(),
             [this, &world, &mtx, &image](int j)
         {
-            std::for_each(std::execution::par, image_horizontal_iterator.begin(), image_horizontal_iterator.end(),
+            std::for_each(std::execution::par_unseq, image_horizontal_iterator.begin(), image_horizontal_iterator.end(),
                 [this, j, &world, &mtx, &image](int i)
             {
                 color pixel_color(0,0,0);
@@ -78,10 +80,6 @@ public:
                 write_color(std::cout, image[j][i], samples_per_pixel);
             }
         }
-
-            
-
-
 
         std::clog << "\rDone.                 \n";
     }
@@ -164,7 +162,9 @@ private:
         auto ray_origin = (defocus_angle <= 0) ? center : defocus_disk_sample();
         auto ray_direction = pixel_sample - ray_origin;
 
-        return ray(ray_origin, ray_direction);
+        auto ray_time = random_double();
+
+        return ray(ray_origin, ray_direction, ray_time);
     }
 
     vec3 pixel_sample_square() const {

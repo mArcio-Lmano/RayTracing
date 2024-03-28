@@ -13,6 +13,7 @@ add_executable(${PROJECT_NAME} ${SOURCES})
 # Find TBB package
 find_package(TBB REQUIRED)
 
+# set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -pg")
 # Link TBB to your executable
 target_link_libraries(${PROJECT_NAME} PRIVATE TBB::tbb)
 
