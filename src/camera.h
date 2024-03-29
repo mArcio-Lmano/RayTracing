@@ -64,6 +64,7 @@ public:
                 mtx.unlock();
             });
 
+            // Comment this for no progress bar (The code should run faster)
             mtx.lock();
             progress_counter++;
             progress = static_cast<float>(progress_counter) / static_cast<float>(image_height);
@@ -80,7 +81,6 @@ public:
                 write_color(std::cout, image[j][i], samples_per_pixel);
             }
         }
-
         std::clog << "\rDone.                 \n";
     }
 
