@@ -5,7 +5,10 @@ project(ray_tracing)
 # Add your source files here
 set(SOURCES
     src/main.cpp
+    src/vec3.cpp
 )
+
+include_directories(include)
 
 # Add an executable target
 add_executable(${PROJECT_NAME} ${SOURCES})
