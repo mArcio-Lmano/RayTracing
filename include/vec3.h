@@ -1,6 +1,7 @@
 #ifndef VEC3_H
 #define VEC3_H
 #include <ostream>
+
 class vec3 {
 public:
   double cords[3];

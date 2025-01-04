@@ -2,23 +2,39 @@ cmake_minimum_required(VERSION 3.28.3)
 
 project(ray_tracing)
 
-# Add your source files here
+# Specify the C++ standard
+set(CMAKE_CXX_STANDARD 17)
+
+# Define source files (add all your source files here)
 set(SOURCES
     src/main.cpp
-    src/vec3.cpp
+    src/vec3.cpp  # Add other source files as needed
 )
 
-include_directories(include)
+# Define the include directories
+include_directories(${CMAKE_SOURCE_DIR}/include)
 
-# Add an executable target
-add_executable(${PROJECT_NAME} ${SOURCES})
+# Create a static library for the core code
+add_library(ray_tracing_lib STATIC ${SOURCES})
 
-# Find TBB package
+# Find TBB package (if needed)
 find_package(TBB REQUIRED)
 
-# set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -pg")
-# Link TBB to your executable
-target_link_libraries(${PROJECT_NAME} PRIVATE TBB::tbb)
+# Link TBB to the library
+target_link_libraries(ray_tracing_lib PRIVATE TBB::tbb)
 
-# Specify the C++ standard
-target_compile_features(${PROJECT_NAME} PRIVATE cxx_std_17)  # Or the desired standard version
+# Include Catch2 for testing
+include(FetchContent)
+FetchContent_Declare(
+    Catch2
+    GIT_REPOSITORY https://github.com/catchorg/Catch2.git
+    GIT_TAG v3.4.0  # Replace with the desired version
+)
+FetchContent_MakeAvailable(Catch2)
+
+# Add the test folder and link tests
+add_subdirectory(tests)
+
+# Create the main executable (ray_tracing)
+add_executable(ray_tracing ${SOURCES})
+target_link_libraries(ray_tracing PRIVATE ray_tracing_lib)  # Link the library here

@@ -19,32 +19,31 @@ vec3 &vec3::operator+=(const vec3 &v) {
   cords[1] += v.cords[1];
   cords[2] += v.cords[2];
   return *this;
-};
+}
 
 vec3 &vec3::operator*=(const double t) {
   cords[0] *= t;
   cords[1] *= t;
   cords[2] *= t;
   return *this;
-};
+}
 
 vec3 &vec3::operator/=(const double t) {
   cords[0] /= t;
   cords[1] /= t;
   cords[2] /= t;
   return *this;
-};
+}
 
 double vec3::sqr_length() const {
   return cords[0] * cords[0] + cords[1] * cords[1] + cords[2] * cords[2];
-};
+}
 
-double vec3::length() const { return std::sqrt(sqr_length()); };
+double vec3::length() const { return std::sqrt(sqr_length()); }
 
 //////////////////////
 // Utility function //
 //////////////////////
-
 inline std::ostream &operator<<(std::ostream &out, const vec3 &v) {
   return out << v[0] << ' ' << v[1] << ' ' << v[2];
 }
