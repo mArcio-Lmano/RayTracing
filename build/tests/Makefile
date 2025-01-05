@@ -65,6 +65,16 @@ CMAKE_BINARY_DIR = /home/talocha/Projects/RayTracing/build
 #=============================================================================
 # Targets provided globally by CMake.
 
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running tests..."
+	/usr/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+.PHONY : test/fast
+
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake cache editor..."
@@ -84,6 +94,51 @@ rebuild_cache:
 # Special rule for the target rebuild_cache
 rebuild_cache/fast: rebuild_cache
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+.PHONY : list_install_components/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
+
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -117,25 +172,25 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-tests/CMakeFiles/vec3_tests.dir/rule:
-	cd /home/talocha/Projects/RayTracing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/vec3_tests.dir/rule
-.PHONY : tests/CMakeFiles/vec3_tests.dir/rule
+tests/CMakeFiles/ray_tracing_tests.dir/rule:
+	cd /home/talocha/Projects/RayTracing/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/ray_tracing_tests.dir/rule
+.PHONY : tests/CMakeFiles/ray_tracing_tests.dir/rule
 
 # Convenience name for target.
-vec3_tests: tests/CMakeFiles/vec3_tests.dir/rule
-.PHONY : vec3_tests
+ray_tracing_tests: tests/CMakeFiles/ray_tracing_tests.dir/rule
+.PHONY : ray_tracing_tests
 
 # fast build rule for target.
-vec3_tests/fast:
-	cd /home/talocha/Projects/RayTracing/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/vec3_tests.dir/build.make tests/CMakeFiles/vec3_tests.dir/build
-.PHONY : vec3_tests/fast
+ray_tracing_tests/fast:
+	cd /home/talocha/Projects/RayTracing/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/ray_tracing_tests.dir/build.make tests/CMakeFiles/ray_tracing_tests.dir/build
+.PHONY : ray_tracing_tests/fast
 
 vec3_tests.o: vec3_tests.cpp.o
 .PHONY : vec3_tests.o
 
 # target to build an object file
 vec3_tests.cpp.o:
-	cd /home/talocha/Projects/RayTracing/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/vec3_tests.dir/build.make tests/CMakeFiles/vec3_tests.dir/vec3_tests.cpp.o
+	cd /home/talocha/Projects/RayTracing/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/ray_tracing_tests.dir/build.make tests/CMakeFiles/ray_tracing_tests.dir/vec3_tests.cpp.o
 .PHONY : vec3_tests.cpp.o
 
 vec3_tests.i: vec3_tests.cpp.i
@@ -143,7 +198,7 @@ vec3_tests.i: vec3_tests.cpp.i
 
 # target to preprocess a source file
 vec3_tests.cpp.i:
-	cd /home/talocha/Projects/RayTracing/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/vec3_tests.dir/build.make tests/CMakeFiles/vec3_tests.dir/vec3_tests.cpp.i
+	cd /home/talocha/Projects/RayTracing/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/ray_tracing_tests.dir/build.make tests/CMakeFiles/ray_tracing_tests.dir/vec3_tests.cpp.i
 .PHONY : vec3_tests.cpp.i
 
 vec3_tests.s: vec3_tests.cpp.s
@@ -151,7 +206,7 @@ vec3_tests.s: vec3_tests.cpp.s
 
 # target to generate assembly for a file
 vec3_tests.cpp.s:
-	cd /home/talocha/Projects/RayTracing/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/vec3_tests.dir/build.make tests/CMakeFiles/vec3_tests.dir/vec3_tests.cpp.s
+	cd /home/talocha/Projects/RayTracing/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/ray_tracing_tests.dir/build.make tests/CMakeFiles/ray_tracing_tests.dir/vec3_tests.cpp.s
 .PHONY : vec3_tests.cpp.s
 
 # Help Target
@@ -161,8 +216,13 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... install"
+	@echo "... install/local"
+	@echo "... install/strip"
+	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... vec3_tests"
+	@echo "... test"
+	@echo "... ray_tracing_tests"
 	@echo "... vec3_tests.o"
 	@echo "... vec3_tests.i"
 	@echo "... vec3_tests.s"

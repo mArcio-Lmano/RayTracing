@@ -1,18 +1,18 @@
-# Add test source files (add all your test files here)
+cmake_minimum_required(VERSION 3.28.3)
+# Add test source files
 set(TEST_SOURCES
-    vec3_tests.cpp  # Add other test files as needed
+    vec3_tests.cpp # Add more test files as needed
 )
 
-# Find the GTest package
-find_package(GTest REQUIRED)
+# Create the test executable
+add_executable(ray_tracing_tests ${TEST_SOURCES})
 
-# Define the test executable
-add_executable(vec3_tests ${TEST_SOURCES})
+# Link the ray_tracing_lib and Google Test to the test executable
+target_link_libraries(ray_tracing_tests PRIVATE ray_tracing_lib GTest::gtest GTest::gtest_main)
 
-# Link Google Test and your ray_tracing library to the test executable
-target_link_libraries(vec3_tests PRIVATE GTest::GTest GTest::Main ray_tracing_lib)
+# Add the include directory
+target_include_directories(ray_tracing_tests PRIVATE ${CMAKE_SOURCE_DIR}/include)
 
-# Add the include directory for the source code
-target_include_directories(vec3_tests PRIVATE ${CMAKE_SOURCE_DIR}/include)
-
-# Ensure the test executable links against Catch2 or GTest, whichever you're using
+# Register the tests with CTest
+include(GoogleTest)
+gtest_discover_tests(ray_tracing_tests)

@@ -1,6 +1,5 @@
 #include "../include/vec3.h"
 #include <cmath>
-#include <ostream>
 
 vec3::vec3() : cords{0, 0, 0} {};
 vec3::vec3(double v1, double v2, double v3) : cords{v1, v2, v3} {};
@@ -40,14 +39,3 @@ double vec3::sqr_length() const {
 }
 
 double vec3::length() const { return std::sqrt(sqr_length()); }
-
-//////////////////////
-// Utility function //
-//////////////////////
-inline std::ostream &operator<<(std::ostream &out, const vec3 &v) {
-  return out << v[0] << ' ' << v[1] << ' ' << v[2];
-}
-
-inline vec3 operator+(const vec3 &v1, const vec3 &v2) {
-  return vec3(v1[0] + v2[0], v1[1] + v2[1], v1[2] + v2[2]);
-}

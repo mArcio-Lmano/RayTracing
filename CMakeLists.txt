@@ -6,16 +6,16 @@ project(ray_tracing)
 set(CMAKE_CXX_STANDARD 17)
 
 # Define source files (add all your source files here)
-set(SOURCES
-    src/main.cpp
-    src/vec3.cpp  # Add other source files as needed
-)
+set(SOURCE src/main.cpp)
 
+set(LIB_SRC
+  src/vec3.cpp
+)
 # Define the include directories
 include_directories(${CMAKE_SOURCE_DIR}/include)
 
 # Create a static library for the core code
-add_library(ray_tracing_lib STATIC ${SOURCES})
+add_library(ray_tracing_lib STATIC ${LIB_SRC})
 
 # Find TBB package (if needed)
 find_package(TBB REQUIRED)
@@ -23,18 +23,20 @@ find_package(TBB REQUIRED)
 # Link TBB to the library
 target_link_libraries(ray_tracing_lib PRIVATE TBB::tbb)
 
-# Include Catch2 for testing
 include(FetchContent)
 FetchContent_Declare(
-    Catch2
-    GIT_REPOSITORY https://github.com/catchorg/Catch2.git
-    GIT_TAG v3.4.0  # Replace with the desired version
+    GTest
+    GIT_REPOSITORY https://github.com/google/googletest.git
+    GIT_TAG release-1.11.0  # Replace with the desired version
 )
-FetchContent_MakeAvailable(Catch2)
+FetchContent_MakeAvailable(GTest)
 
-# Add the test folder and link tests
+# Enable testing with CTest
+enable_testing()
+
+# Add the test folder for test-related CMakeLists
 add_subdirectory(tests)
 
-# Create the main executable (ray_tracing)
-add_executable(ray_tracing ${SOURCES})
-target_link_libraries(ray_tracing PRIVATE ray_tracing_lib)  # Link the library here
+# Create the main executable
+add_executable(ray_tracing ${SOURCE})
+target_link_libraries(ray_tracing PRIVATE ray_tracing_lib)  

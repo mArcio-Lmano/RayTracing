@@ -1,0 +1,5 @@
+if(EXISTS "/home/talocha/Projects/RayTracing/build/tests/ray_tracing_tests[1]_tests.cmake")
+  include("/home/talocha/Projects/RayTracing/build/tests/ray_tracing_tests[1]_tests.cmake")
+else()
+  add_test(ray_tracing_tests_NOT_BUILT ray_tracing_tests_NOT_BUILT)
+endif()
