@@ -10,6 +10,7 @@ set(SOURCE src/main.cpp)
 
 set(LIB_SRC
   src/vec3.cpp
+  src/color.cpp
 )
 # Define the include directories
 include_directories(${CMAKE_SOURCE_DIR}/include)

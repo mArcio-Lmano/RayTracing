@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.28.3)
 # Add test source files
 set(TEST_SOURCES
     vec3_tests.cpp # Add more test files as needed
+    color_tests.cpp
 )
 
 # Create the test executable
