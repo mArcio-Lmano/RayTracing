@@ -1,11 +1,2 @@
 .vscode/
-build/.cmake/
-build/cmake*
-build/CMake*
-build/Makefile
-
-build/tests/.cmake/
-build/tests/cmake*
-build/tests/CMake*
-build/tests/Makefile
-build/Testing
+build/*
